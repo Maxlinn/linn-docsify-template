@@ -1,6 +1,6 @@
 # Homepage
 
-Set up you markdown files site in one minute.
+Set up you markdown files site in one minute, powered by [Docsify](https://docsify.js.org/).
 Your :star: will be high praise for my efforts, thank you!
 
 ## Usage
