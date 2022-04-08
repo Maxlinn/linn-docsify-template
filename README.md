@@ -1,7 +1,10 @@
 # Homepage
 
 Set up you markdown files site in one minute, powered by [Docsify](https://docsify.js.org/).
+
 Your :star: will be high praise for my efforts, thank you!
+
+Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsify-template).
 
 ## Usage
 
