@@ -29,13 +29,15 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
 ## Features
 
 - Full text search.
-  - Implement by frontend. Discover documents by hyperlinks in the document you viewed(like a web spider), **not always contains all documents in valut**, and **search index refreshes every one day**.
-- Dark Mode.
+  - Implemented just in frontend. Discover documents to index by hyperlinks in the document you viewed, like a web spider.
+  - **Not always index all documents in this site.**.
+  - Search index refreshes every one day, stored in localstorage.
+- Dark mode switch button.
 - LaTeX, mermaid.js, code highlight support.
 - Custom font settings.
 - User experience enhancement.
   - Copy code button.
-  - Pangu, add Space to Chinese and English overlap.
+  - PanGu, add space when Chinese and English characters drawing near.
   - Collapsable nested sidebar.
 - Support tab syntax, see examples in syntax test below.
 
