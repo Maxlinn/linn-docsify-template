@@ -1,1 +1,3 @@
-- [a-great-navbar-item](https://google.com)
+- a-great-navbar-item
+    - [Google](https://google.com)
+    - [Github](https://github.com)

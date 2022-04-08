@@ -13,9 +13,17 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
     - `index.html`, settings, **must modify, at least modify `!!!` commented settings**.
     - `README.md`, default page of your site, **change it to yours**.
     - `.nojekyll`, ignore it.
-    - `_navbar.md, _sidebar.md, _footer.md`, **change it yo yours**.
-  - That's all, docsify is just as simple as you see it.
-- Go to repository settings, set github pages work on `main` branch.
+    - `_navbar.md, _sidebar.md, _footer.md`, **change it yo yours**. Remove any if you don't like.
+  - That's all, docsify is just as simple as it.
+- Go to repository settings, set `github pages` work on `main` branch.
+
+## Reminder
+
+- Every `README.md` will serve as the default page of this folder level, including this one. 
+  - So don't hesitate to delete this `README.md` to create your own homepage!
+- The sidebar serve as a document navigator as well as `table of contents(toc)` of current document.
+  - The sidebar item starts with an `-` is the toc of active document, auto-generated.
+  - Sidebar item can by any link, defined in `_sidebar.md`.
 
 ## Features
 
@@ -29,11 +37,6 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
   - Pangu, add Space to Chinese and English overlap.
   - Collapsable nested sidebar.
 - Support tab syntax, see examples in syntax test below.
-
-## Reminder
-
-- Every `README.md` will serve as the default page of this folder level, including this one. So don't hesitate to delete this `README.md` to create your own homepage!
-
 
 ## Markdown Syntax Test
 

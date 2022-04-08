@@ -1,4 +1,4 @@
-# a-great-title
+# a greate title
 
 README.md in every subfolder will routed into `index.html`.
 
