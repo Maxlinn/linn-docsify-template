@@ -14,6 +14,7 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
     - `README.md`, default page of your site, **change it to yours**.
     - `.nojekyll`, ignore it.
     - `_navbar.md, _sidebar.md, _footer.md`, **change it yo yours**. Remove any if you don't like.
+    - Folder `a-great-subfoloder`, just for demo, **remove it and its contents**.
   - That's all, docsify is just as simple as it.
 - Go to repository settings, set `github pages` work on `main` branch.
 
