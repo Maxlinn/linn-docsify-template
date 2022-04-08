@@ -1,6 +1,7 @@
 # Homepage
 
 Set up you markdown files site in one minute.
+Your :star: will be high praise for my efforts, thank you!
 
 ## Usage
 
