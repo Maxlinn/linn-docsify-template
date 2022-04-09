@@ -4,7 +4,7 @@ Set up you markdown files site in one minute, powered by [Docsify](https://docsi
 
 Your :star: would be high praise for my efforts, thank you!
 
-Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsify-template).
+Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.github.io/linn-docsify-template).
 
 ## Usage
 
