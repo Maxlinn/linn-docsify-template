@@ -10,12 +10,15 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.github.io/linn-d
 
 - Use this repository as template.
   - You'll get a `main` branch with those files
+  - To modify:
     - `index.html`, settings, **must modify, at least modify those commented with `!!!`**.
     - `README.md`, homepage of your site, **change it to yours**.
-    - `.nojekyll`, nevermind.
     - `_navbar.md, _sidebar.md, _footer.md`, **change it to yours**. Remove any if you don't like.
-    - Folder `a-great-subfoloder`, just for demo, **remove it and its contents**.
     - `favicon.svg`, the icon your site, **change it to yours**. To use other format, edit `index.html`.
+  - To remove:
+    - Folder `a-great-subfoloder`, just for demo, **remove it and its contents**.
+  - Nevermind:
+    - `.nojekyll`, nevermind.
 - Go to repository settings, set `github pages` work on `main` branch.
 - Done!
 
