@@ -28,6 +28,8 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
 
 ## Features
 
+Powered by [plugins of docsify](https://docsify.js.org/#/plugins).
+
 - Full text search.
   - Discover documents by hyperlinks of the documents you viewed, like a web spider.
   - Implemented just in frontend.
