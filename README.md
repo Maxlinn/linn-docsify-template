@@ -25,10 +25,11 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
 - The sidebar serve as a document navigator as well as `table of contents` of current document.
   - The sidebar item starts with an `-` belongs to `table of contents` of current document.
   - Other sidebar items are defined in `_sidebar.md`.
+- To disable features, comment its plugin `<script>` tag inside `index.html`.
 
 ## Features
 
-Powered by [plugins of docsify](https://docsify.js.org/#/plugins).
+Powered by [plugins of docsify](https://docsify.js.org/#/plugins), and [community contributions](https://docsify.js.org/#/awesome?id=awesome-docsify-).
 
 - Full text search.
   - Discover documents by hyperlinks of the documents you viewed, like a web spider.
