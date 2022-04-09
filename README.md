@@ -2,7 +2,7 @@
 
 Set up you markdown files site in one minute, powered by [Docsify](https://docsify.js.org/).
 
-Your :star: will be high praise for my efforts, thank you!
+Your :star: would be high praise for my efforts, thank you!
 
 Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsify-template).
 
@@ -10,28 +10,29 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
 
 - Use this repository as template.
   - You'll get a `main` branch with those files
-    - `index.html`, settings, **must modify, at least modify `!!!` commented settings**.
-    - `README.md`, default page of your site, **change it to yours**.
-    - `.nojekyll`, ignore it.
+    - `index.html`, settings, **must modify, at least modify those commented with `!!!`**.
+    - `README.md`, homepage of your site, **change it to yours**.
+    - `.nojekyll`, nevermind.
     - `_navbar.md, _sidebar.md, _footer.md`, **change it yo yours**. Remove any if you don't like.
     - Folder `a-great-subfoloder`, just for demo, **remove it and its contents**.
-  - That's all, docsify is just as simple as it.
 - Go to repository settings, set `github pages` work on `main` branch.
+- Done!
 
 ## Reminder
 
-- Every `README.md` will serve as the default page of this folder level, including this one. 
-  - So don't hesitate to delete this `README.md` to create your own homepage!
-- The sidebar serve as a document navigator as well as `table of contents(toc)` of current document.
-  - The sidebar item starts with an `-` is the toc of active document, auto-generated.
-  - Sidebar item can by any link, defined in `_sidebar.md`.
+- `README.md` of each folder level would serve as homepage of this level, like this one you are reading. 
+  - So don't hesitate to change this `README.md` to create your own homepage!
+- The sidebar serve as a document navigator as well as `table of contents` of current document.
+  - The sidebar item starts with an `-` belongs to `table of contents` of current document.
+  - Other sidebar items are defined in `_sidebar.md`.
 
 ## Features
 
 - Full text search.
-  - Implemented just in frontend. Discover documents to index by hyperlinks in the document you viewed, like a web spider.
-  - **Not always index all documents in this site.**.
-  - Search index refreshes every one day, stored in localstorage.
+  - Discover documents by hyperlinks of the documents you viewed, like a web spider.
+  - Implemented just in frontend.
+  - **Not always index all documents of this site**.
+  - Search index rebuilt every one day by default, stored in localstorage.
 - Dark mode switch button.
 - LaTeX, mermaid.js, code highlight support.
 - Custom font settings.
@@ -39,7 +40,7 @@ Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.site/linn-docsif
   - Copy code button.
   - PanGu, add space when Chinese and English characters drawing near.
   - Collapsable nested sidebar.
-- Support tab syntax, see examples in syntax test below.
+- Support [tabs syntax](https://jhildenbiddle.github.io/docsify-tabs/#/?id=usage), see examples in syntax test below.
 
 ## Markdown Syntax Test
 
@@ -68,22 +69,51 @@ for i in range(42):
     print("calm down")
 ```
 
+## Tab Syntax
+
+- Bold of headings(`**`) is necessary to trigger the syntax!
+- Though it uses headings, it won't affect headings of markdown.
+- If two of more tabs contain tab of the same name, **once a tab is selected, all tabs of the same name will be selected**.
+  - It is extremely useful to show codes of different languages.
+
 ```markdown
 <!-- tabs:start -->
-#### **English**
+### **English**
 Hello!
-#### **French**
+### **French**
 Bonjour!
-#### **Italian**
+### **Italian**
 Ciao!
 <!-- tabs:end -->
 ```
 
 <!-- tabs:start -->
-#### **English**
+### **English**
 Hello!
-#### **French**
+### **French**
 Bonjour!
-#### **Italian**
+### **Italian**
+Ciao!
+<!-- tabs:end -->
+
+## Tab Syntax - Equivalent Usage
+
+```markdown
+<!-- tabs:start -->
+<!-- tab:English -->
+Hello!
+<!-- tab:French -->
+Bonjour!
+<!-- tab:Italian -->
+Ciao!
+<!-- tabs:end -->
+```
+
+<!-- tabs:start -->
+<!-- tab:English -->
+Hello!
+<!-- tab:French -->
+Bonjour!
+<!-- tab:Italian -->
 Ciao!
 <!-- tabs:end -->
