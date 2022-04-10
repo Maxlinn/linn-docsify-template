@@ -61,6 +61,23 @@
         crossChapter: true,
         crossChapterText: true,
       },
+
+      plugins: [
+        // handcraft highlight support
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            let candidates = html.match(/==(.+?)==/g);
+            // without if, error occurs when there's no match
+            if (candidates) {
+              for (var i = 0; i < candidates.length; i++) {
+                html = html.replace(candidates[i],
+                  `<mark>` + candidates[i].replace(/==/g, "") + `</mark>`);
+              }
+            }
+            return html;
+          })
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->

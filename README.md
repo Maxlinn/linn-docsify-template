@@ -41,6 +41,7 @@ Powered by [plugins of docsify](https://docsify.js.org/#/plugins), and [communit
   - **Not always index all documents of this site**.
   - Search index rebuilt every one day by default, stored in localstorage.
 - Dark mode switch button.
+- `==` highlight syntax support.
 - LaTeX, mermaid.js, code highlight support.
 - Custom font settings.
 - User experience enhancement.
