@@ -6,9 +6,12 @@ Your :star: would be high praise for my efforts, thank you!
 
 Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.github.io/linn-docsify-template).
 
+> 对于中文用户，您可以使用`zh-CN`[分支](https://github.com/Maxlinn/linn-docsify-template/tree/zh-CN)。
+
 ## Usage
 
-- Use this repository as template.
+- Click the `Use Template` button to initialize your project.
+  - `fork` is also appropriate. The advantage is that you can easily merge my upcoming updates by click `fetch-upstream` button, the disadvantage is that you can not set a forked public repository to private.
   - You'll get a `main` branch with those files
   - To modify:
     - `index.html`, settings, **must modify, at least modify those commented with `!!!`**.
