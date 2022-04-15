@@ -1,12 +1,12 @@
-# Homepage
+# 主页
+
+> 看了一下 Chrome 自动翻译的效果很好，这个文档就偷懒不翻了，中文分支主要是把一些设置给汉化了。
 
 Set up you markdown files site in one minute, powered by [Docsify](https://docsify.js.org/).
 
 Your :star: would be high praise for my efforts, thank you!
 
 Demo is here: [Maxlinn's Docsify Template Demo](https://maxlinn.github.io/linn-docsify-template).
-
-> 对于中文用户，您可以使用`zh-CN`[分支](https://github.com/Maxlinn/linn-docsify-template/tree/zh-CN)。
 
 ## Usage
 
